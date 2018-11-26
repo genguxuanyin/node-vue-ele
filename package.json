@@ -1,0 +1,25 @@
+{
+  "name": "yonghuguanlixitong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "genguxuanyin",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "gravatar": "^1.7.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.13",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^4.41.2"
+  }
+}
